@@ -1,0 +1,13 @@
+*/target/
+**/bin
+**/build
+.idea/
+
+
+# ignore all logs
+*.log
+
+*.iml
+
+*.classpath
+*.project

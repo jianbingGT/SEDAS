@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  sedation-assistant-spring-boot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 3001:3001
